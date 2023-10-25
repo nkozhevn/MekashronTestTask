@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nikolai_kozevnikov/Documents/GitHub/MekashronTestTask/MekashronTestTask.csproj": {}
+  },
+  "projects": {
+    "/Users/nikolai_kozevnikov/Documents/GitHub/MekashronTestTask/MekashronTestTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nikolai_kozevnikov/Documents/GitHub/MekashronTestTask/MekashronTestTask.csproj",
+        "projectName": "MekashronTestTask",
+        "projectPath": "/Users/nikolai_kozevnikov/Documents/GitHub/MekashronTestTask/MekashronTestTask.csproj",
+        "packagesPath": "/Users/nikolai_kozevnikov/.nuget/packages/",
+        "outputPath": "/Users/nikolai_kozevnikov/Documents/GitHub/MekashronTestTask/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nikolai_kozevnikov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.ICU.ICU4C.Runtime": {
+              "target": "Package",
+              "version": "[72.1.0.3, )"
+            },
+            "Umbraco.Cms": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
