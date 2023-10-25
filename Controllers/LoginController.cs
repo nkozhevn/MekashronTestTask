@@ -19,11 +19,11 @@ namespace MekashronTestTask
         }
 
         [HttpGet]
-        public IActionResult CallWebService([FromQuery] string login, string password)
+        public async Task<IActionResult> CallWebService([FromQuery] string login, string password)
         {
             ClientClass client = new ClientClass("http://isapi.icu-tech.com/icutech-test.dll/soap/IICUTech");
 
-            string result = client.CallWebServiceMethodAsync("Login", login, password).Result;
+            string result = await client.CallWebServiceMethodAsync("Login", login, password);
 
             return Content(result);
         }
