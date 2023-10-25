@@ -25,11 +25,11 @@
             font-weight: bold;
         }
         #message-container.success-message {
-            background-color: #4CAF50;
+            background-color: #008000;
             color: white;
         }
         #message-container.error-message {
-            background-color: #f44336;
+            background-color: #ff0000;
             color: white;
         }
     </style>
@@ -86,9 +86,9 @@
                                 success: function (data) {
                                     console.log(data);
                                     if (data === "" || data == "-1") {
-                                        messageContainer.html("Login failed. Please check your credentials.").addClass("error-message").show();
+                                        messageContainer.html("Login failed. Please check your credentials.").removeClass("success-message").addClass("error-message").show();
                                     } else {
-                                        messageContainer.html("Login successful.").addClass("success-message").show();
+                                        messageContainer.html("Login successful.").removeClass("error-message").addClass("success-message").show();
                                     }
                                 },
                                 error: function (error) {
